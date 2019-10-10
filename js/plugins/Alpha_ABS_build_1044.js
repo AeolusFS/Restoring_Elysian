@@ -2263,7 +2263,7 @@ LOGW.setColors(Color.ORANGE, Color.BLACK.getLightestColor(100));
 
   $.LOGW = LOGW;
 
-  $.STRING_ALERT_NEEDTARGET = 'Need target';
+  $.STRING_ALERT_NEEDTARGET = 'Need a target to use that attack.';
   $.STRING_ALERT_TOFAR = 'Target too far';
   $.STRING_ALERT_INTERRUPT = 'Action interrupt';
   $.STRING_ALERT_NOAUTOA = "Can't use attack now";
@@ -2271,7 +2271,7 @@ LOGW.setColors(Color.ORANGE, Color.BLACK.getLightestColor(100));
   $.STRING_ALERT_NOCHARGES = "Can't use, no charges";
   $.STRING_ALERT_RECHARGE = 'Action is not ready';
   $.STRING_ALERT_CASTMOVE = "Can't use while moving";
-  $.STRING_ALERT_NOINBATTLE = "Need get out of the battle";
+  $.STRING_ALERT_NOINBATTLE = "Can't leave area while in battle.";
   $.STRING_ALERT_NEWLEVEL = "Level up!";
 
   $.STRING_POPUP_EVADE = 'Evade';
