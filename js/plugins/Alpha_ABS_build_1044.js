@@ -3211,6 +3211,7 @@ AlphaABS.register(AlphaABS.UTILS.PointX);
         break;
       case 'noTarget':
         BattleManagerABS.alertOnUI(Consts.STRING_ALERT_NEEDTARGET);
+        LOG.p("alert: " + Consts.STRING_ALERT_NEEDTARGET);
         break;
       case 'noAmmo':
         BattleManagerABS.alertOnUI(Consts.STRING_ALERT_NOCHARGES);
