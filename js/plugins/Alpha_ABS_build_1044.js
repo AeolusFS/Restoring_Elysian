@@ -2267,9 +2267,9 @@ LOGW.setColors(Color.ORANGE, Color.BLACK.getLightestColor(100));
   $.STRING_ALERT_TOFAR = 'Target too far';
   $.STRING_ALERT_INTERRUPT = 'Action interrupt';
   $.STRING_ALERT_NOAUTOA = "Can't use attack now";
-  $.STRING_ALERT_NOUSE = "Can't use action now";
-  $.STRING_ALERT_NOCHARGES = "Can't use, no charges";
-  $.STRING_ALERT_RECHARGE = 'Action is not ready';
+  $.STRING_ALERT_NOUSE = "Skill not available";
+  $.STRING_ALERT_NOCHARGES = "Can't use, out of mana.";
+  $.STRING_ALERT_RECHARGE = 'Not enough mana';
   $.STRING_ALERT_CASTMOVE = "Can't use while moving";
   $.STRING_ALERT_NOINBATTLE = "Can't leave area while in battle.";
   $.STRING_ALERT_NEWLEVEL = "Level up!";
@@ -13238,7 +13238,8 @@ function Game_EnemyABS() {
       return _Game_Interpreter_command201.call(this);
     } else {
       if ($gameParty.inBattle()) {
-        AlphaABS.BattleManagerABS.alertNoInBattle();
+        //AlphaABS.BattleManagerABS.alertNoInBattle();
+        AlphaABS.BattleUI.alert("Can't leave area while in battle.");
         AlphaABS.BattleManagerABS.warning(1);
         return true;
       } else {
