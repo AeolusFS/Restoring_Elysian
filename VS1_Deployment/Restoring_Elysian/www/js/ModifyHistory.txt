@@ -1,0 +1,2 @@
+rpg_objects.js:42	// Disable mouse movement
+rpg_core.js:3002	// WASD for movement, disable numpad and arrow keys
