@@ -916,14 +916,14 @@ Input._revertButton = function(button) {
     this.keyMapper[81] = 'pageup';
     this.keyMapper[34] = 'pagedown';
     // this.keyMapper[87] = 'pagedown';
-    this.keyMapper[37] = 'left';
-    this.keyMapper[100] = 'left';
-    this.keyMapper[38] = 'up';
-    this.keyMapper[104] = 'up';
-    this.keyMapper[39] = 'right';
-    this.keyMapper[102] = 'right';
-    this.keyMapper[40] = 'down';
-    this.keyMapper[98] = 'down';
+    // this.keyMapper[37] = 'left';
+    // this.keyMapper[100] = 'left';
+    // this.keyMapper[38] = 'up';
+    // this.keyMapper[104] = 'up';
+    // this.keyMapper[39] = 'right';
+    // this.keyMapper[102] = 'right';
+    // this.keyMapper[40] = 'down';
+    // this.keyMapper[98] = 'down';
   }
 }
 
