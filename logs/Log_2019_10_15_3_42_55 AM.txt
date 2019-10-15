@@ -1,0 +1,44 @@
+PHLoger
+Started
+----------
+Alpha ABS version
+1.2
+----------
+Alpha ABS build
+1044
+----------
+Help and support
+https://discord.gg/8EE6PMv
+----------
+Patreon page
+https://www.patreon.com/KageDesu
+----------
+WARNING!
+    at chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/TerraxLighting.js:661:43
+    at chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/TerraxLighting.js:1802:3
+----------
+WARNING!
+    at chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VPS%20-%20Dynamic%20Weather%20System.js:459:61
+    at chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VPS%20-%20Dynamic%20Weather%20System.js:1114:3
+----------
+Error
+Error: The plugin VE - Control Text requires the plugin VE - Basic Module v1.06 or higher installed to work properly. Go to http://victorenginescripts.wordpress.com/ to download the plugin.
+    at Function.PluginManager.requiredPlugin (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VE_ControlText.js:30:10)
+    at Function.DataManager.loadDatabase (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VE_ControlText.js:21:32)
+    at Scene_Boot.create (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:350:17)
+    at Function.SceneManager.changeScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:2005:25)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_X_CoreUpdatesOpt.js:7950:12)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_X_CoreUpdatesOpt.js:7930:10)
+----------
+ERROR!
+Using AlphaABS [Version: 1.2 ; Build: 1044 ; on MV  1.6.1]
+----------
+ERROR!
+Error: The plugin VE - Control Text requires the plugin VE - Basic Module v1.06 or higher installed to work properly. Go to http://victorenginescripts.wordpress.com/ to download the plugin.
+    at Function.PluginManager.requiredPlugin (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VE_ControlText.js:30:10)
+    at Function.DataManager.loadDatabase (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/VE_ControlText.js:21:32)
+    at Scene_Boot.create (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_scenes.js:350:17)
+    at Function.SceneManager.changeScene (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/rpg_managers.js:2005:25)
+    at Function.SceneManager.updateMain (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_X_CoreUpdatesOpt.js:7950:12)
+    at Function.SceneManager.update (chrome-extension://odlameecjipmbmbejkplpemijjgpljce/js/plugins/YEP_X_CoreUpdatesOpt.js:7930:10)
+----------
