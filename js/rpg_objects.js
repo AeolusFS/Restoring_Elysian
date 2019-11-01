@@ -1,5 +1,5 @@
 //=============================================================================
-// rpg_objects.js v1.6.1
+// rpg_objects.js v1.6.2
 //=============================================================================
 
 //-----------------------------------------------------------------------------
@@ -39,7 +39,6 @@ Game_Temp.prototype.reservedCommonEvent = function() {
 };
 
 Game_Temp.prototype.setDestination = function(x, y) {
-    return; // Disable mouse movement
     this._destinationX = x;
     this._destinationY = y;
 };
