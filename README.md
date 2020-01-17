@@ -6,12 +6,12 @@ Team Name: Confused Seals
 --------------------------------------------------------------
 
 Credits: 
-Producer/Lead Artist - Kennedy MacGregor
-Lead Designer/Lead Programmer/Level Designer - Charles Zhai
-Lead Writer - Stephen Sherwood
-Programmer - Mike Boisvert
-Programmer - Victor Lieu, 
-Programmer/Level Designer - Chris Li Sheung Ying
+- Producer/Lead Artist - Kennedy MacGregor
+- Lead Designer/Lead Programmer/Audio Designer/Level Designer - Charles Zhai
+- Lead Writer - Stephen Sherwood
+- Programmer - Mike Boisvert
+- Programmer - Victor Lieu, 
+- Programmer/Level Designer - Chris Li Sheung Ying
 
 EP: Jeff Cho
 
